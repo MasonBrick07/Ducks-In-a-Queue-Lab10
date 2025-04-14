@@ -390,7 +390,7 @@ public class ListTester {
 	 */
 	private IndexedUnsortedList<Integer> A_removeFirst_emptyList() {
 		IndexedUnsortedList<Integer> list = emptyList_addToFrontA_A(); 
-		list.remove(ELEMENT_A);
+		list.removeFirst();
 		return list;
 	}
 	private Scenario<Integer> A_removeFirst_emptyList = () -> A_removeFirst_emptyList();
