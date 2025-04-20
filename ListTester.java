@@ -212,13 +212,13 @@ public class ListTester {
 		
 		//2-element to 1-element
 			// Scenario: 25
-		testSingleElementList(AB_removeFirst_B, "AB_removeFirst_B", LIST_B, STRING_B);
+		testSingleElementList(AB_removeFirst_B, "AB_removeFirst_B", LIST_AB, STRING_B);
 			// Scenario: 26
 		testSingleElementList(AB_removeLast_A, "AB_removeLast_A", LIST_A, STRING_A);
 			// Scenario: 27
 
 			// Scenario: 28
-		testSingleElementList(AB_removeB_A, "AB_removeB_A", LIST_A, STRING_A);
+		testSingleElementList(AB_removeB_A, "AB_removeB_A", LIST_AB, STRING_A);
 			// Scenario: 29
 
 			// Scenario: 30
