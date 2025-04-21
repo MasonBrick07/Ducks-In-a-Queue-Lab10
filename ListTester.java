@@ -3451,11 +3451,4 @@ class WrapIt {
 	}
 
 	public ListIterator<Integer> getListIterator() {
-		if (!isListIterator) { throw new UnsupportedOperationException(); }
-		return listIterator;
-	}
-
-	public IndexedUnsortedList<Integer> getList() {
-		return wrappedList;
-	}
-}
+		if (!isListIterator) { throw new UnsupportedOpera
