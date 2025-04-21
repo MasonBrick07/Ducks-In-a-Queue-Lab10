@@ -64,7 +64,7 @@ public class IUArrayList<E> implements IndexedUnsortedList<E> {
 
 	public E removeFirst() {
 		modCount++; // DO NOT REMOVE ME
-		return removeElement(rear - 1);
+		return removeElement(0);
 	}
 
 	public E removeLast() {
@@ -167,6 +167,7 @@ public class IUArrayList<E> implements IndexedUnsortedList<E> {
     	rear--;
 
     	return result;
+
     }
 
 	private void addElement(int index, E element) {
@@ -181,23 +182,6 @@ public class IUArrayList<E> implements IndexedUnsortedList<E> {
 		rear++;
 	}
 
-// 	int index = indexOf(element);
-// 	if (index == NOT_FOUND) {
-// 		throw new NoSuchElementException();
-// 	}
-	
-// 	E retVal = array[index];
-	
-// 	rear--;
-// 	//shift elements
-// 	for (int i = index; i < rear; i++) {
-// 		array[i] = array[i+1];
-// 	}
-// 	array[rear] = null;
-
-// 	modCount++; // DO NOT REMOVE ME
-// 	return retVal;
-// }
 
 	// IGNORE THE FOLLOWING COMMENTED OUT CODE UNTIL LAB 10
 	// DON'T DELETE ME, HOWEVER!!!
