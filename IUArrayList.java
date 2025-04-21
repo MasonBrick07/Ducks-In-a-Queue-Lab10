@@ -156,6 +156,7 @@ public class IUArrayList<E> implements IndexedUnsortedList<E> {
 
 	private E removeElement(int index) {
         if (index < 0 || index >= rear) { throw new IndexOutOfBoundsException();}
+		if (isEmpty()) { throw new EmptyCollectionException("Unsorted List"); }
         E result = this.array[index];
 
         // shift the appropriate elements
