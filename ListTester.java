@@ -581,8 +581,8 @@ public class ListTester {
 	/** Scenario #44: [A] -> iterator, next(), remove() -> []
 	 * @return [] after iterator, next(), remove()
 	 */
-	private IndexedUnsortedList<Integer> A_nextRemove_emptyList() {
-		IndexedUnsortedList<Integer> list = emptyList_addA_A();
+	private IUSingleLinkedList<Integer> A_nextRemove_emptyList() {
+		IUSingleLinkedList<Integer> list = emptyList_addA_A();
 		Iterator<E> iter = new SLLIterator();
 		iter.next();
 		iter.remove();
@@ -593,8 +593,8 @@ public class ListTester {
 	/** Scenario #45: [A,B] -> iterator, next(), remove() -> [B]
 	 * @return [B] after iterator, next(), remove()
 	 */
-	private IndexedUnsortedList<Integer> AB_nextRemove_B() {
-		IndexedUnsortedList<Integer> list = A_addToRearB_AB();
+	private IUSingleLinkedList<Integer> AB_nextRemove_B() {
+		IUSingleLinkedList<Integer> list = A_addToRearB_AB();
 		Iterator<E> iter = new SLLIterator();
 		iter.next();
 		iter.remove();
@@ -605,8 +605,8 @@ public class ListTester {
 	/** Scenario #46: [A,B] -> iterator, next(), next(), remove() -> [A]
 	 * @return [A] after iterator, next(), next(), remove()
 	 */
-	private IndexedUnsortedList<Integer> AB_nextNextRemove_A() {
-		IndexedUnsortedList<Integer> list = A_addToRearB_AB();
+	private IUSingleLinkedList<Integer> AB_nextNextRemove_A() {
+		IUSingleLinkedList<Integer> list = A_addToRearB_AB();
 		Iterator<E> iter = new SLLIterator();
 		iter.next();
 		iter.next();
@@ -618,8 +618,8 @@ public class ListTester {
 	/** Scenario #47: [A,B] -> iterator, next(), remove(), next(), remove() -> []
 	 * @return [] after iterator, next(), remove(), next(), remove()
 	 */
-	private IndexedUnsortedList<Integer> AB_nextRemoveNextRemove_emptyList() {
-		IndexedUnsortedList<Integer> list = A_addToRearB_AB();
+	private IUSingleLinkedList<Integer> AB_nextRemoveNextRemove_emptyList() {
+		IUSingleLinkedList<Integer> list = A_addToRearB_AB();
 		Iterator<E> iter = new SLLIterator();
 		iter.next();
 		iter.remove();
@@ -632,8 +632,8 @@ public class ListTester {
 	/** Scenario #48: [A,B,C] -> iterator, next(), remove() -> [B,C]
 	 * @return [B,C] after iterator, next(), remove()
 	 */
-	private IndexedUnsortedList<Integer> ABC_nextRemove_BC() {
-		IndexedUnsortedList<Integer> list = AB_addAfterCB_ABC();
+	private IUSingleLinkedList<Integer> ABC_nextRemove_BC() {
+		IUSingleLinkedList<Integer> list = AB_addAfterCB_ABC();
 		Iterator<E> iter = new SLLIterator();
 		iter.next();
 		iter.remove();
@@ -644,8 +644,8 @@ public class ListTester {
 	/** Scenario #49: [A,B,C] -> iterator, next(), next(), remove() -> [A,C]
 	 * @return [A,C] after iterator, next(), next(), remove()
 	 */
-	private IndexedUnsortedList<Integer> ABC_nextNextRemove_AC() {
-		IndexedUnsortedList<Integer> list = AB_addAfterCB_ABC();
+	private IUSingleLinkedList<Integer> ABC_nextNextRemove_AC() {
+		IUSingleLinkedList<Integer> list = AB_addAfterCB_ABC();
 		Iterator<E> iter = new SLLIterator();
 		iter.next();
 		iter.next();
@@ -658,8 +658,8 @@ public class ListTester {
 	/** Scenario #50: [A,B,C] -> iterator, next(), next(), next(), remove() -> [A,B]
 	 * @return [A,B] after iterator, next(), next(), next(), remove()
 	 */
-	private IndexedUnsortedList<Integer> ABC_nextNextNextRemove_AB() {
-		IndexedUnsortedList<Integer> list = AB_addAfterCB_ABC();
+	private IUSingleLinkedList<Integer> ABC_nextNextNextRemove_AB() {
+		IUSingleLinkedList<Integer> list = AB_addAfterCB_ABC();
 		Iterator<E> iter = new SLLIterator();
 		iter.next();
 		iter.next();
@@ -673,8 +673,8 @@ public class ListTester {
 	/** Scenario #51: [A,B,C] -> iterator, next(), remove(), next(), remove() -> [C]
 	 * @return [C] after iterator, next(), remove(), next(), remove()
 	 */
-	private IndexedUnsortedList<Integer> ABC_nextRemoveNextRemove_C() {
-		IndexedUnsortedList<Integer> list = AB_addAfterCB_ABC();
+	private IIUSingleLinkedList<Integer> ABC_nextRemoveNextRemove_C() {
+		IUSingleLinkedList<Integer> list = AB_addAfterCB_ABC();
 		Iterator<E> iter = new SLLIterator();
 		iter.next();
 		iter.remove();
@@ -688,8 +688,8 @@ public class ListTester {
 	/** Scenario #52: [A,B,C] -> iterator, next(), remove(), next(), next(), remove() -> [B]
 	 * @return [B] after iterator, next(), remove(), next(), next(), remove()
 	 */
-	private IndexedUnsortedList<Integer> ABC_nextRemoveNextNextRemove_B() {
-		IndexedUnsortedList<Integer> list = AB_addAfterCB_ABC();
+	private IUSingleLinkedList<Integer> ABC_nextRemoveNextNextRemove_B() {
+		IUSingleLinkedList<Integer> list = AB_addAfterCB_ABC();
 		Iterator<E> iter = new SLLIterator();
 		iter.next();
 		iter.remove();
@@ -704,8 +704,8 @@ public class ListTester {
 	/** Scenario #53: [A,B,C] -> iterator, next(), next(), remove(), next(), remove() -> [A]
 	 * @return [A] after iterator, next(), next(), remove(), next(), remove()
 	 */
-	private IndexedUnsortedList<Integer> ABC_nextNextRemoveNextRemove_A() {
-		IndexedUnsortedList<Integer> list = AB_addAfterCB_ABC();
+	private IUSingleLinkedList<Integer> ABC_nextNextRemoveNextRemove_A() {
+		IUSingleLinkedList<Integer> list = AB_addAfterCB_ABC();
 		Iterator<E> iter = new SLLIterator();
 		iter.next();
 		iter.next();
@@ -720,8 +720,8 @@ public class ListTester {
 	/** Scenario #54: [A,B,C] -> iterator, next(), remove(), next(), remove(), next(), remove() -> []
 	 * @return [] after iterator, next(), remove(), next(), remove(), next(), remove()
 	 */
-	private IndexedUnsortedList<Integer> ABC_nextRemoveNextRemoveNextRemove_emptyList() {
-		IndexedUnsortedList<Integer> list = AB_addAfterCB_ABC();
+	private IUSingleLinkedList<Integer> ABC_nextRemoveNextRemoveNextRemove_emptyList() {
+		IUSingleLinkedList<Integer> list = AB_addAfterCB_ABC();
 		Iterator<E> iter = new SLLIterator();
 		iter.next();
 		iter.remove();
