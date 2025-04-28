@@ -143,6 +143,7 @@ public class IUSingleLinkedList<E> implements IndexedUnsortedList<E> {
 		}
 	
 		current.setElement(element);
+		modCount++; 
 	}
 		
 
