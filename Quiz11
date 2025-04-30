@@ -1,0 +1,154 @@
+1.
+Question: Creating a separate node class that holds a reference to another node and a reference to an object that is being stored in a collection is a good design because it...
+Selected Answer: b. hides the implementation details of a collection ✅
+Other Options:
+a. makes the code more complicated
+b. hides the implementation details of a collection ✅
+c. reduces code reuse
+d. all of the above
+e. neither a, b nor c
+
+2.
+Question: A polymorphic reference is one that can refer to _______________ type(s) of object(s).
+Selected Answer: c. multiple ✅
+Other Options:
+a. static
+b. zero
+c. multiple ✅
+d. exactly one
+e. abstract
+
+3.
+Question: A stack is a ___________________ data structure.
+Selected Answer: a. LIFO ✅
+Other Options:
+a. LIFO ✅
+b. FIFO
+c. link based
+d. array based
+e. none of the above
+
+4.
+Question: If the growth function for an algorithm is expressed as a polynomial, the asymptotic complexity is determined by the term with the smallest exponent.
+Selected Answer: False ✅
+Correct Answer: False ✅
+
+5.
+Question: When an object contains an instance field that is a reference to another object of the same type, we say that the object is self-identifying.
+Selected Answer: True ❌
+Correct Answer: False
+
+6.
+Question: The List interface is implemented by the ________ class.
+Selected Answer: a. ArrayList ✅
+Other Options:
+a. ArrayList ✅
+b. Object
+c. String
+d. array
+e. Exception
+
+7.
+Question: A list collection can be implemented using either...
+Selected Answer: d. an array or a linked structure ✅
+Other Options:
+a. a stack or a queue
+b. an Exception or an Error
+c. add or remove operations
+d. an array or a linked structure ✅
+e. both c) and d) are correct
+
+8.
+Question: The size of a list collection is unbounded.
+Selected Answer: True ✅
+Correct Answer: True ✅
+
+9.
+Question: A(n) _____________________ is a list collection whose elements can be referenced using a numeric index.
+Selected Answer: e. indexed list ✅
+Other Options:
+a. unordered list
+b. linked list
+c. ordered list
+d. array
+e. indexed list ✅
+
+10.
+Question: The List ADT provides how many operations to remove an element from a list?
+Selected Answer: a. 3 ✅
+Other Options:
+a. 3 ✅
+b. 1
+c. more than 4
+d. 4
+e. 2
+
+11.
+Question: The addAfter operation of an unordered list collection is...
+Selected Answer: d. O(n) ✅
+Other Options:
+a. O(n log n)
+b. a higher order than O(n log n)
+c. O(log n)
+d. O(n) ✅
+e. O(1)
+
+12.
+Question: A(n) _____________________ is a list collection with elements ordered by a characteristic of the elements.
+Selected Answer: a. ordered list ✅
+Other Options:
+a. ordered list ✅
+b. unordered list
+c. indexed list
+d. linked list
+e. array
+
+13.
+Question: The primary difference between OrderedList and UnorderedList ADT is in how elements are removed.
+Selected Answer: True ❌
+Correct Answer: False
+
+14.
+Question: The LinkedList class implements the List interface.
+Selected Answer: True ✅
+Correct Answer: True ✅
+
+15.
+Question: A user has no control over the order of elements in an unordered list.
+Selected Answer: False ✅
+Correct Answer: False ✅
+
+16.
+Question: In an array-based queue storing the front at index 0, the dequeue operation...
+Selected Answer: c. has order O(n) ✅
+Other Options:
+a. is impossible to implement
+b. has several special cases
+c. has order O(n) ✅
+d. has order O(n²)
+e. none of the above
+
+17.
+Question: In a circular array queue, front can be greater than rear.
+Selected Answer: True ✅
+Correct Answer: True ✅
+
+18.
+Question: In ideal queue implementations, all operations are...
+Selected Answer: a. O(1) ✅
+Other Options:
+a. O(1) ✅
+b. O(n)
+c. O(n log n)
+d. O(n²)
+e. it depends on the operation
+
+19.
+Question: A queue can only be implemented with an array-based structure.
+Selected Answer: False ✅
+Correct Answer: False ✅
+
+20.
+Question: Java provides a Queue class that implements a pure queue collection.
+Selected Answer: False ✅
+Correct Answer: False ✅
