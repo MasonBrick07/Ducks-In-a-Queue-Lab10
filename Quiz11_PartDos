@@ -1,0 +1,282 @@
+Question 1
+Q: The peek operation of a stack is _________
+
+a. O(1) ✅ (Correct)
+
+b. O(n)
+
+c. O(n²)
+
+d. O(n log n)
+
+e. none of the above
+Selected Answer: a. O(1) ✅
+Correct Answer: a. O(1) ✅
+
+Question 2
+Q: __________ occurs when a child class defines a method with the same signature as a method in the parent class.
+
+a. Overriding ✅ (Correct)
+
+b. Overloading
+
+c. Substituting
+
+d. Overwhelming
+
+e. A child class cannot define a method with the same signature as a parent class method.
+Selected Answer: b. Overloading ❌
+Correct Answer: a. Overriding ✅
+
+Question 3
+Q: A Stack interface is defined and has an isEmpty() abstract method. What should this method return?
+
+a. a boolean value representing whether the stack is empty or not. ✅ (Correct)
+
+b. an int representing the number of items in the stack
+
+c. the item that is at the top of the stack
+
+d. a String representing the contents of the items in the stack
+
+e. a double representing the average of the values of the items in the stack
+Selected Answer: a. ✅
+Correct Answer: a. ✅
+
+Question 4
+Q: What exception is thrown if the pop method is called on an empty stack, implemented using the ArrayStack class?
+
+a. EmptyStackException
+
+b. NoSuchElementException
+
+c. ArrayOutOfBoundsException
+
+d. EmptyCollectionException ✅ (Correct)
+
+e. none of the above
+Selected Answer: a. EmptyStackException ❌
+Correct Answer: d. EmptyCollectionException ✅
+
+Question 5
+Q: The ________ pattern allows behavior/method implementations to be reused between objects and even swapped out during runtime.
+
+a. Decorator
+
+b. Adapter
+
+c. Observer
+
+d. Strategy ✅ (Correct)
+
+e. Factory
+Selected Answer: d. Strategy ✅
+Correct Answer: d. Strategy ✅
+
+Question 6
+Q: A(n) _____________________ is a list collection that has elements ordered by a characteristic of the elements.
+
+a. ordered list ✅ (Correct)
+
+b. unordered list
+
+c. indexed list
+
+d. linked list
+
+e. array
+Selected Answer: a. ordered list ✅
+Correct Answer: a. ordered list ✅
+
+Question 7
+Q: The addAfter operation of an unordered list collection is
+
+a. O(1)
+
+b. O(n) ✅ (Correct)
+
+c. O(log n)
+
+d. a higher order than O(n log n)
+
+e. O(n log n)
+Selected Answer: c. O(log n) ❌
+Correct Answer: b. O(n) ✅
+
+Question 8
+Q: A(n) _____________________ is a list collection whose elements can be referenced using a numeric index.
+
+a. array
+
+b. linked list
+
+c. indexed list ✅ (Correct)
+
+d. unordered list
+
+e. ordered list
+Selected Answer: e. ordered list ❌
+Correct Answer: c. indexed list ✅
+
+Question 9
+Q: The List ADT provides how many operations to remove an element from a list?
+
+a. 2
+
+b. 4
+
+c. 3 ✅ (Correct)
+
+d. 1
+
+e. more than 4
+Selected Answer: c. 3 ✅
+Correct Answer: c. 3 ✅
+
+Question 10
+Q: What is the nature of the methods added to the OrderedListADT and UnorderedListADT interfaces that extend the ListADT interface?
+
+a. They are methods to remove elements from the list
+
+b. They add a method to determine the location of an element in the list
+
+c. They add a method to determine the size of the list
+
+d. They are methods to add elements to the list ✅ (Correct)
+
+e. They are methods to delete the list
+Selected Answer: a. ❌
+Correct Answer: d. ✅
+
+Question 11
+Q: When adding elements to an ordered list, the elements are ordered according to
+
+a. the order of the calls to the add operation
+
+b. increasing size of storage
+
+c. the key value of each element ✅ (Correct)
+
+d. the memory address
+
+e. none of the above
+Selected Answer: c. ✅
+Correct Answer: c. ✅
+
+Question 12
+Q: The remove operation returns
+
+a. an int representing number of elements remaining
+
+b. a boolean indicating success
+
+c. the element that was removed ✅ (Correct)
+
+d. a pointer to the list
+
+e. none of these
+Selected Answer: c. ✅
+Correct Answer: c. ✅
+
+Question 13
+Q: First step in removing an element from a list collection is to
+
+a. determine that the collection is not empty ✅ (Correct)
+
+b. determine if the element is in the collection
+
+c. determine if it's the first/last element
+
+d. determine if the list will be empty after removal
+
+e. none of these
+Selected Answer: a. ✅
+Correct Answer: a. ✅
+
+Question 14
+Q: The find method, as used in array-based implementation of remove and contains, returns
+
+a. the element that was found
+
+b. the index of the element that was found ✅ (Correct)
+
+c. a boolean
+
+d. a reference to the reference variable
+
+e. none of the above
+Selected Answer: b. ✅
+Correct Answer: b. ✅
+
+Question 15
+Q: A list collection can be implemented using either
+
+a. a stack or a queue
+
+b. an Exception or an Error
+
+c. add or remove operations
+
+d. an array or a linked structure ✅ (Correct)
+
+e. both c) and d)
+Selected Answer: d. ✅
+Correct Answer: d. ✅
+
+Question 16
+Q: Which should be performed first in a dequeue operation?
+
+a. declare reference to node
+
+b. adjust the front reference
+
+c. decrement element count
+
+d. determine if the queue is empty ✅ (Correct)
+
+e. steps can be done in any order
+Selected Answer: d. ✅
+Correct Answer: d. ✅
+
+Question 17
+Q: In a queue implemented using a circular array, rear refers to
+
+a. the first available array element at the end of the queue ✅ (Correct)
+
+b. the element at the end
+
+c. number of elements left at end of array
+
+d. number of available elements at the beginning
+
+e. none of the above
+Selected Answer: a. ✅
+Correct Answer: a. ✅
+
+Question 18
+Q: In a circular array-based queue, all elements must be shifted during dequeue.
+
+True
+
+False ✅ (Correct)
+Selected Answer: False ✅
+Correct Answer: False ✅
+
+Question 19
+Q: Java provides a Queue class that implements a pure queue.
+
+True ❌
+
+False ✅ (Correct)
+Selected Answer: True ❌
+Correct Answer: False ✅
+
+Question 20
+Q: It is only possible to implement a queue using an array-based structure.
+
+True
+
+False ✅ (Correct)
+Selected Answer: False ✅
+Correct Answer: False ✅
+
